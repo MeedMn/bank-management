@@ -10,13 +10,14 @@
     </parent>
     <groupId>com.bank</groupId>
     <artifactId>bankManagement</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>bankManagement</name>
     <description>bankManagement</description>
 
     <modules>
         <module>eureka-server</module>
+        <module>account-service</module>
     </modules>
 
     <properties>
